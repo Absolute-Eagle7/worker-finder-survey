@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Reliable Workers - Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="survey-form">
+        <h1>Finding Reliable Workers &amp; Service Providers</h1>
+
+        <p>
+            We are researching how people find workers and service providers
+            such as plumbers, electricians, carpenters, cleaners, mechanics, and others.
+        </p>
+
+        <p>
+            This survey takes about 2–3 minutes. Your responses will help us
+            understand the challenges people face when looking for these services.
+        </p>
+
+        <div class="question">
+            <h2>1. Where do you currently live?</h2>
+
+            <label for="region">Region:</label>
+            <select id="region" name="region">
+                <option value="">-- Select your region --</option>
+                <option value="greater-accra">Greater Accra</option>
+                <option value="ashanti">Ashanti</option>
+                <option value="eastern">Eastern</option>
+                <option value="central">Central</option>
+                <option value="volta">Volta</option>
+                <option value="western">Western</option>
+                <option value="western-north">Western North</option>
+                <option value="northern">Northern</option>
+                <option value="savannah">Savannah</option>
+                <option value="north-east">North East</option>
+                <option value="upper-east">Upper East</option>
+                <option value="upper-west">Upper West</option>
+                <option value="bono">Bono</option>
+                <option value="bono-east">Bono East</option>
+                <option value="ahafo">Ahafo</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="city">City/Town:</label>
+            <input type="text" id="city" name="city_town" placeholder="e.g. Tema">
+
+            <label for="area">Area/Community:</label>
+            <input type="text" id="area" name="area_community" placeholder="e.g. Community 25">
+        </div>
+
+        <div class="question">
+    <h2>2. Have you ever needed to find a worker or service provider?</h2>
+
+    <label>
+        <input type="radio" name="needed_worker" value="yes">
+        Yes
+    </label>
+
+    <label>
+        <input type="radio" name="needed_worker" value="no">
+        No
+    </label>
+  </div>
+
+       <div class="question">
+    <h2>3. When you need a worker, how do you normally find one?</h2>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="friends-family">
+        Ask friends or family
+    </label>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="whatsapp">
+        WhatsApp
+    </label>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="social-media">
+        Facebook or other social media
+    </label>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="google">
+        Google or online search
+    </label>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="community">
+        Ask someone in my community
+    </label>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="previous-worker">
+        Use a worker I have used before
+    </label>
+
+    <label>
+        <input type="checkbox" name="finding_method" value="other">
+        Other
+    </label>
+</div>
+
+    <div class="question">
+    <h2>4. Have you ever struggled to find a worker when you needed one?</h2>
+
+    <label>
+        <input type="radio" name="struggled_finding" value="yes">
+        Yes
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="struggled_finding" value="no">
+        No
+    </label>
+</div>
+
+    
+
+<div class="question">
+<h2>5. What type of worker have you had the most difficulty finding?</h2>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="plumber">
+    Plumber
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="electrician">
+    Electrician
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="carpenter">
+    Carpenter
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="mason">
+    Mason
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="painter">
+    Painter
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="mechanic">
+    Mechanic
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="cleaner">
+    Cleaner
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="welder">
+    Welder
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="tiler">
+    Tiler
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="hairdresser-barber">
+    Hairdresser / Barber
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="appliance-repair">
+    Appliance / Electronics Repairer
+</label>
+
+<br>
+
+<label>
+    <input type="radio" name="difficult_worker_type" value="other">
+    Other
+</label>
+    </div>
+
+    <div class="question">
+    <h2>6. What is usually the biggest problem when looking for a worker?</h2>
+
+    <p>Select up to 2 options.</p>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="cannot-find">
+        I don't know where to find one
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="trust">
+        I don't know if they are trustworthy
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="no-response">
+        They don't respond
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="unavailable">
+        They are unavailable
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="distance">
+        They are too far away
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="price">
+        Prices are unclear
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="skill">
+        I'm unsure about their skill or quality of work
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="bad-experience">
+        I've had bad experiences before
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="biggest_problem" value="other">
+        Other
+    </label>
+</div>
+
+    <div class="question">
+    <h2>7. Have you ever hired a worker and been dissatisfied with the service?</h2>
+
+    <label>
+        <input type="radio" name="dissatisfied_hire" value="yes">
+        Yes
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="dissatisfied_hire" value="no">
+        No
+    </label>
+
+    <h3>If yes, what went wrong?</h3>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="poor-quality">
+        Poor quality work
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="did-not-show">
+        Worker didn't show up
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="late">
+        Worker arrived late
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="extra-charge">
+        Charged more than expected
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="incomplete">
+        Didn't complete the job
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="damage">
+        Damaged something
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="communication">
+        Poor communication
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="dissatisfaction_reason" value="other">
+        Other
+    </label>
+</div>
+
+    <div class="question">
+    <h2>8. How important would it be to see a worker's ratings and reviews before hiring them?</h2>
+
+    <label>
+        <input type="radio" name="ratings_importance" value="not-important">
+        Not important
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="ratings_importance" value="slightly-important">
+        Slightly important
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="ratings_importance" value="important">
+        Important
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="ratings_importance" value="very-important">
+        Very important
+    </label>
+</div>
+
+    <div class="question">
+    <h2>9. Which information would you want to see before contacting a worker?</h2>
+
+    <p>Select all that apply.</p>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="name">
+        Name
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="location">
+        Location
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="services">
+        Services offered
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="price">
+        Price or estimated rate
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="reviews">
+        Ratings and reviews
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="previous-work">
+        Photos of previous work
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="availability">
+        Availability
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="contact">
+        Phone or WhatsApp contact
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="experience">
+        Years of experience
+    </label>
+
+    <br>
+
+    <label>
+        <input type="checkbox" name="wanted_information" value="other">
+        Other
+    </label>
+</div>
+
+   <div class="question">
+    <div class="question">
+    <h2>10. What would make you trust a worker you found through such a platform?</h2>
+
+    <textarea
+        name="trust_factor"
+        rows="5"
+        cols="50"
+        placeholder="Tell us what would make you feel comfortable hiring them...">
+    </textarea>
+</div>
+
+   <div class="question">
+    <h2>11. Is there anything else you think would make finding workers easier?</h2>
+
+    <textarea
+        name="additional_feedback"
+        rows="5"
+        cols="50"
+        placeholder="Share any other ideas or suggestions...">
+    </textarea>
+</div>
+
+    <div class="question">
+    <h2>12. Would you use a platform that helps you find workers near your location?</h2>
+
+    <label>
+        <input type="radio" name="use_platform" value="yes">
+        Yes
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="use_platform" value="maybe">
+        Maybe
+    </label>
+
+    <br>
+
+    <label>
+        <input type="radio" name="use_platform" value="no">
+        No
+    </label>
+</div>
+
+        <br><br>
+
+        <button type="submit">Submit Survey</button>
+
+        <p id="message"></p>
+    </form>
+
+  <script>
+    const form = document.querySelector("#survey-form");
+    const message = document.querySelector("#message");
+
+    form.addEventListener("submit", async function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const data = {};
+
+        formData.forEach((value, key) => {
+            if (data[key]) {
+                if (!Array.isArray(data[key])) {
+                    data[key] = [data[key]];
+                }
+
+                data[key].push(value);
+            } else {
+                data[key] = value;
+            }
+        });
+
+        try {
+            const response = await fetch("http://localhost:3000/submit-survey", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                message.textContent = "Thank you! Your survey has been submitted.";
+                form.reset();
+            } else {
+                message.textContent = result.message || "Something went wrong. Please try again.";
+            }
+
+        } catch (error) {
+            console.error("Error:", error);
+            message.textContent = "Could not connect to the server.";
+        }
+    });
+
+
+    function addOtherField(trigger, fieldName) {
+        const otherField = document.createElement("textarea");
+
+        otherField.className = "other-field";
+        otherField.name = fieldName;
+        otherField.rows = 3;
+        otherField.placeholder = "Please specify";
+
+        trigger.insertAdjacentElement("afterend", otherField);
+
+        function toggleOtherField() {
+            const isSelected = trigger.type === "select-one"
+                ? trigger.value === "other"
+                : trigger.checked;
+
+            otherField.classList.toggle("visible", isSelected);
+
+            if (!isSelected) {
+                otherField.value = "";
+            }
+        }
+
+        trigger.addEventListener("change", toggleOtherField);
+        toggleOtherField();
+    }
+
+
+    document.querySelectorAll('input[value="other"]').forEach(function(input) {
+        addOtherField(input, input.name + "-other");
+    });
+
+
+    document.querySelectorAll('select option[value="other"]').forEach(function(option) {
+        const select = option.parentElement;
+        addOtherField(select, select.name + "-other");
+    });
+</script>
+</body>
+</html>
